@@ -121,3 +121,28 @@ export const ourStory = [
 
     },
 ]
+
+
+export const aboutData = [
+    {
+        id: 1,
+        title: "About Us",
+        content: "Aspire Packaging is a leading innovator in sustainable packaging solutions. With over a decade of experience, we combine cutting-edge technology with eco-friendly materials to deliver packaging that protects your products and the planet.",
+        image: "/about/about-us.png",
+        alt: "Sustainable packaging materials"
+    },
+    {
+        id: 2,
+        title: "Our Mission",
+        content: "To deliver innovative packaging solutions that exceed client expectations while maintaining an unwavering commitment to environmental responsibility. We strive to reduce supply chain waste through smart design and renewable materials.",
+        image: "/about/mission.jpg",
+        alt: "Eco-friendly packaging design"
+    },
+    {
+        id: 3,
+        title: "Our Vision",
+        content: "To revolutionize the packaging industry by 2030 through zero-waste solutions and circular economy practices. We envision a world where every package enhances brand storytelling while contributing positively to environmental stewardship.",
+        image: "/about/vision.webp",
+        alt: "Future of sustainable packaging"
+    }
+];

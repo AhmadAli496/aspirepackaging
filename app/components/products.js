@@ -13,8 +13,10 @@ const Products = () => {
                     </p>
                 </div>
                 <div className="flex justify-center items-center flex-wrap gap-12 pb-12">
-                    {products.map((product) => (
+                    {products.map((product, index) => (
+                        <div key={index}>
                         <Product product={product} />
+                        </div>
                     ))}
                 </div>
             </div>

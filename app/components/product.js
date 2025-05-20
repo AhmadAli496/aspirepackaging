@@ -28,7 +28,7 @@ import Image from "next/image";
 
 export default function Product({ product}) {
     return (
-        <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden max-w-sm group cursor-pointer">
+        <div key={product.id} className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden max-w-sm group cursor-pointer">
             <div className="relative h-64 w-[320px] sm:w-[300px]">
                 <Image
                     src={product.image}
