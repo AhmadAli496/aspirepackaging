@@ -1,6 +1,6 @@
 'use client'
 import { motion } from 'framer-motion';
-import { AboutPageSection, AboutHero} from "@/app/components";
+import {AboutPageSection, AboutHero, Contact} from "@/app/components";
 
 import { aboutData } from "@/app/data";
 
@@ -50,6 +50,7 @@ export default function AboutPage() {
                     </div>
                 </div>
             </motion.div>
+            <Contact />
         </div>
     );
 }

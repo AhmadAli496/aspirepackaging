@@ -30,7 +30,7 @@ export default function AutoScroller({toRight = true}) {
     };
 
     // Duplicate list to make looping look seamless
-    const allLogos = [...logos, ...logos];
+    const allLogos = [...logos, ...logos, ...logos, ...logos];
 
     return (
         <div className="overflow-hidden whitespace-nowrap bg-gray-100 py-4">

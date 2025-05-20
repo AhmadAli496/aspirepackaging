@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className={'fixed top-0 right-0 left-0 shadow-md z-40 bg-white'}>
       <header className="header flex justify-between max-w-[1440px] px-4 md:px-[1rem] mx-auto py-[1rem]">
         <div>
-          <Image src="/logo.png" alt='This is the logo for my website' className={'w-[240px] md:w-[300px]'} width={300} height={100} />
+          <Image src="/logo.png" alt='This is the logo for my website' className={'w-[240px] md:w-[300px] h-[4  7px]'} width={300} height={50} />
         </div>
         <div className="navlink">
           <nav className="navbar_links gap-6 hidden md:flex">

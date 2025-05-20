@@ -128,7 +128,7 @@ export const aboutData = [
         id: 1,
         title: "About Us",
         content: "Aspire Packaging is a leading innovator in sustainable packaging solutions. With over a decade of experience, we combine cutting-edge technology with eco-friendly materials to deliver packaging that protects your products and the planet.",
-        image: "/about/about-us.png",
+        image: "/home/about-section.jpg",
         alt: "Sustainable packaging materials"
     },
     {
