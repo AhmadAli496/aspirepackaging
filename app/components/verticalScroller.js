@@ -39,7 +39,7 @@ export default function VerticalAutoScroller({toBottom = true}) {
         <div
             ref={containerRef}
             // style={{ height: '600px', overflow: 'hidden', position: 'relative' }}
-            className={`h-[24rem] md:h-[600px] overflow-hidden relative`}
+            className={`h-[24rem] md:h-[680px] overflow-hidden relative`}
         >
             <motion.div
                 style={{ display: 'flex', flexDirection: 'column' }}

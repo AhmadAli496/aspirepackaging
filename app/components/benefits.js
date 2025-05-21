@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { benifits } from '../data'
 const Benefits = () => {
   return (
-    <div className='relative md:-top-16'>
+    <div className='relative md:-top-12'>
     <div className="container">
       <div className="grid rounded-xl lg:grid-cols-3 md:grid-cols-2 grid-cols-1 bg-gray-100 border border-gray-300  shadow-lg">
         {benifits.map((benifit) => (
