@@ -118,7 +118,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="rounded-lg overflow-hidden h-[350px] relative">
-               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d679365.8165586907!2d74.334389!3d31.48294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Pakistan!5e1!3m2!1sen!2sus!4v1747932182937!5m2!1sen!2sus" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d679365.8165586907!2d74.334389!3d31.48294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39190483e58107d9%3A0xc23abe6ccc7e2462!2sLahore%2C%20Pakistan!5e1!3m2!1sen!2sus!4v1747932182937!5m2!1sen!2sus" className='w-full' height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                Hello Umer
               </div>
             </div>
