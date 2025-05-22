@@ -146,3 +146,241 @@ export const aboutData = [
         alt: "Future of sustainable packaging"
     }
 ];
+
+
+
+
+
+export const productsDetails = [
+  {
+    id: 1,
+    slug: "flexible-packaging",
+    title: "Flexible Packaging",
+    image: "/images/products/flexible-packaging.jpg",
+    galleryImages: [
+      "/images/products/flexible-packaging-1.jpg",
+      "/images/products/flexible-packaging-2.jpg"
+    ],
+    description: "Durable and lightweight packaging solution ideal for a wide range of consumer and industrial products.",
+    features: ["High barrier properties", "Customizable printing", "Eco-friendly material choices"],
+    applications: ["Snacks", "Pharmaceuticals", "Personal care"],
+    specs: {
+      material: "PET/PE, BOPP/PE",
+      thickness: "30–120 microns",
+      print_type: "Gravure/Flexographic"
+    },
+    metaTitle: "Flexible Packaging | Premium Packaging Solutions",
+    metaDescription: "Explore lightweight, eco-friendly flexible packaging ideal for food, pharma, and retail.",
+    brochurePDF: "/pdfs/flexible-packaging.pdf",
+    ctaText: "Request a Quote"
+  },
+  {
+    id: 2,
+    slug: "ldpe-lamination-films",
+    title: "LDPE Lamination Films",
+    image: "/images/products/ldpe-lamination-films.jpg",
+    galleryImages: [],
+    description: "Lamination films offering excellent sealing and barrier for multi-layer packaging.",
+    features: ["High seal strength", "Transparency", "Moisture resistance"],
+    applications: ["Food packaging", "Medical wrapping", "Pouch lamination"],
+    specs: {
+      material: "LDPE",
+      thickness: "20–100 microns",
+      width: "Up to 1500 mm"
+    },
+    metaTitle: "LDPE Lamination Films | Protective Film Layers",
+    metaDescription: "Use our LDPE films for superior lamination and barrier protection across packaging types.",
+    brochurePDF: "/pdfs/ldpe-lamination.pdf",
+    ctaText: "Download Specs"
+  },
+  {
+    id: 3,
+    slug: "ld-shrink-films",
+    title: "LD Shrink Films",
+    image: "/images/products/ld-shrink-films.jpg",
+    galleryImages: [],
+    description: "Shrinkable LDPE film ideal for bundling, display, and load stability.",
+    features: ["Excellent shrinkage", "Tear resistance", "Glossy finish"],
+    applications: ["Beverage bottles", "Consumer goods", "Industrial bundling"],
+    specs: {
+      material: "LDPE",
+      shrinkage: "Up to 70%",
+      thickness: "25–200 microns"
+    },
+    metaTitle: "LD Shrink Films | Multipack and Display Wrap",
+    metaDescription: "Protect and bundle with LD shrink wrap featuring high clarity and toughness.",
+    brochurePDF: "",
+    ctaText: "Get Samples"
+  },
+  {
+    id: 4,
+    slug: "textile-packaging",
+    title: "Textile Packaging",
+    image: "/images/products/textile-packaging.jpg",
+    galleryImages: [],
+    description: "Protective packaging designed for garments and textile products.",
+    features: ["Dust/moisture resistance", "Custom sizes", "Clear or printed options"],
+    applications: ["Apparel", "Curtains", "Fabrics"],
+    specs: {
+      material: "LDPE/HDPE/BOPP",
+      closure: "Seal/Zip",
+      thickness: "Varies"
+    },
+    metaTitle: "Textile Packaging | Clear and Printed Garment Bags",
+    metaDescription: "Secure textile products with protective packaging tailored for storage and display.",
+    brochurePDF: "",
+    ctaText: "Contact for Custom Orders"
+  },
+  {
+    id: 5,
+    slug: "food-packaging",
+    title: "Food Packaging",
+    image: "/images/products/food-packaging.jpg",
+    galleryImages: [],
+    description: "Food-grade packaging that keeps products fresh, safe, and shelf-stable.",
+    features: ["Food-safe certified", "Odorless", "Custom designs"],
+    applications: ["Snacks", "Dairy", "Frozen food"],
+    specs: {
+      material: "PET/PE, BOPP",
+      certification: "FDA, ISO",
+      thickness: "20–150 microns"
+    },
+    metaTitle: "Food Packaging | Safe & Certified Materials",
+    metaDescription: "Preserve freshness with our food packaging designed for hygiene and shelf appeal.",
+    brochurePDF: "/pdfs/food-packaging.pdf",
+    ctaText: "Explore Options"
+  },
+  {
+    id: 6,
+    slug: "industrial-packaging",
+    title: "Industrial Packaging",
+    image: "/images/products/industrial-packaging.jpg",
+    galleryImages: [],
+    description: "Heavy-duty packaging made to endure transit and storage in industrial settings.",
+    features: ["Tear-resistant", "Heavy load support", "Custom specs"],
+    applications: ["Machinery", "Spare parts", "Construction goods"],
+    specs: {
+      material: "PE/PP blends",
+      format: "Rolls & Sheets",
+      gauge: "Up to 300 microns"
+    },
+    metaTitle: "Industrial Packaging | Durable & Custom-Fit",
+    metaDescription: "Heavy-duty industrial packaging solutions designed to withstand harsh environments.",
+    brochurePDF: "/pdfs/industrial-packaging.pdf",
+    ctaText: "Talk to Sales"
+  },
+  {
+    id: 7,
+    slug: "shopping-bags",
+    title: "Shopping Bags",
+    image: "/images/products/shopping-bags.jpg",
+    galleryImages: [],
+    description: "Custom printed shopping bags for retail, durable and eco-aware.",
+    features: ["Reusable", "Branding support", "Multiple handle types"],
+    applications: ["Retail", "Supermarkets", "Events"],
+    specs: {
+      material: "LDPE/HDPE",
+      sizes: "Small–XL",
+      printing: "1–6 color"
+    },
+    metaTitle: "Shopping Bags | Printed Retail Carriers",
+    metaDescription: "Durable printed shopping bags for retail stores, events, and promotions.",
+    brochurePDF: "/pdfs/shopping-bags.pdf",
+    ctaText: "Customize Now"
+  },
+  {
+    id: 8,
+    slug: "non-woven-bags",
+    title: "Non Woven Bags",
+    image: "/images/products/non-woven-bags.jpg",
+    galleryImages: [],
+    description: "Reusable and biodegradable bags made from non-woven polypropylene.",
+    features: ["Biodegradable options", "Loop or D-cut", "Long-lasting"],
+    applications: ["Retail", "Giveaways", "Promotions"],
+    specs: {
+      material: "Non-Woven PP",
+      gsm: "60–120",
+      handle_type: "Loop/D-cut"
+    },
+    metaTitle: "Non-Woven Bags | Eco-Friendly Carry Bags",
+    metaDescription: "Promote your brand sustainably with our durable non-woven carry bags.",
+    brochurePDF: "",
+    ctaText: "Request Bulk Pricing"
+  },
+  {
+    id: 9,
+    slug: "packaging-tapes",
+    title: "Packaging Tapes",
+    image: "/images/products/packaging-tapes.jpg",
+    galleryImages: [],
+    description: "Strong adhesive tapes for sealing, branding, and bundling.",
+    features: ["Hot melt and acrylic", "Custom printing", "Strong adhesion"],
+    applications: ["Cartons", "Logistics", "E-commerce"],
+    specs: {
+      material: "BOPP/PVC",
+      width: "12–72 mm",
+      adhesive_type: "Acrylic/Hot Melt"
+    },
+    metaTitle: "Packaging Tapes | Strong Adhesive Solutions",
+    metaDescription: "Secure your shipments with strong and customizable packaging tapes.",
+    brochurePDF: "",
+    ctaText: "Get a Tape Sample"
+  },
+  {
+    id: 10,
+    slug: "corrugated-boxes",
+    title: "Corrugated Boxes",
+    image: "/images/products/corrugated-boxes.jpg",
+    galleryImages: [],
+    description: "Sturdy corrugated boxes available in various ply and printing formats.",
+    features: ["3 to 7 ply", "Eco-friendly", "Custom printing"],
+    applications: ["Shipping", "E-commerce", "Storage"],
+    specs: {
+      material: "Corrugated Kraft",
+      ply: "3/5/7",
+      type: "RSC, Die-cut"
+    },
+    metaTitle: "Corrugated Boxes | Custom Kraft Packaging",
+    metaDescription: "Choose sturdy, sustainable corrugated boxes for shipping and retail.",
+    brochurePDF: "/pdfs/corrugated-boxes.pdf",
+    ctaText: "Start Packaging"
+  },
+  {
+    id: 11,
+    slug: "customized-paper-printing",
+    title: "Customized Paper & Printing",
+    image: "/images/products/customized-paper-printing.jpg",
+    galleryImages: [],
+    description: "Custom printed paper for wraps, inserts, and brand identity.",
+    features: ["Full-color printing", "Recyclable", "Glossy or matte"],
+    applications: ["Wraps", "Inserts", "Marketing"],
+    specs: {
+      material: "Art/Kraft paper",
+      gsm: "60–300 GSM",
+      finish: "Glossy/Matte"
+    },
+    metaTitle: "Customized Paper Printing | Brand Identity",
+    metaDescription: "Stand out with branded paper solutions for packaging and marketing.",
+    brochurePDF: "",
+    ctaText: "Request Samples"
+  },
+  {
+    id: 12,
+    slug: "ldn-poly-bags",
+    title: "LDN Poly Bags",
+    image: "/images/products/ldn-poly-bags.jpg",
+    galleryImages: [],
+    description: "Cost-effective LDPE poly bags for retail, food, and industrial use.",
+    features: ["Clear or printed", "Zip/heat seal", "Bulk ready"],
+    applications: ["Retail", "Storage", "Export packaging"],
+    specs: {
+      material: "LDPE",
+      thickness: "20–150 microns",
+      seal: "Zip/Heat"
+    },
+    metaTitle: "LDN Poly Bags | LDPE Clear & Printed Bags",
+    metaDescription: "Versatile LDPE bags perfect for retail packaging, food, and export.",
+    brochurePDF: "",
+    ctaText: "Order Now"
+  }
+];

@@ -1,6 +1,7 @@
 import React from 'react'
 import VerticalAutoScroller from "./verticalScroller"
 import Image from 'next/image'
+import Link from 'next/link'
 // import heroImage from "./public/package.jpg"
 
 const Hero = () => {
@@ -11,7 +12,7 @@ const Hero = () => {
                 <h1 className="h1 font-bold">Custom packaging designed to fit your business</h1>
                 <p className="body-1 text-gray-700">Explore, design and order sustainable packaging your customers will love</p>
             <div className="btns mt-8">
-              <button className="btn bg-[#015379] cursor-pointer text-white/97 py-4 text-lg px-5 rounded-md font-bold">Get In Touch</button>
+             <Link href={"/contact"}><button className="btn bg-[#015379] cursor-pointer text-white/97 py-4 text-lg px-5 rounded-md font-bold">Get In Touch</button></Link> 
             </div>
             </div>
             <div className="image md:w-1/2 flex gap-4">

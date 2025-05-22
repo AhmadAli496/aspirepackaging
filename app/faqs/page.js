@@ -5,12 +5,12 @@ import {
     AccordionHeader,
     AccordionBody,
 } from "@material-tailwind/react";
+import { Contact } from "../components";
 
 const Faq = () => {
     const [open, setOpen] = React.useState(1);
 
     const handleOpen = (value) => setOpen(open === value ? 0 : value);
-    const heroDesc = 'Find answers to common questions about our truck dispatching services, including load matching, 24/7 support, broker relationships, and more.'
     return (
         <>
             <div className="w-5/6 flex flex-col justify-center items-center mx-auto mb-7">
@@ -64,6 +64,7 @@ const Faq = () => {
                     </AccordionBody>
                 </Accordion>
             </div>
+            <Contact />
         </>
     );
 }
