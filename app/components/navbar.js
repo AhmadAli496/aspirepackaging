@@ -37,7 +37,7 @@ const Navbar = () => {
                   <li onClick={() => setOpen(false)} className={''}><Link href='/'>Home </Link></li>
                   <li onClick={() => setOpen(false)} className={''}><Link href={'/about'}>About Us</Link></li>
                   <li className={''}><Link href="/products">Products</Link></li>
-                  <li onClick={() => setOpen(false)} className={''}><Link href={'/faqs'}>FAQ's</Link></li>
+                  <li onClick={() => setOpen(false)} className={''}><Link href={'/faqs'}>FAQs</Link></li>
                   <li onClick={() => setOpen(false)} className={''}><Link href={'/contact'}>Contact Us</Link></li>
                 <div className="btn mx-auto flex w-full">
                   <button className='bg-blue-600 text-white py-4 rounded-sm w-full px-4 text-[15px]'>E-Brochure</button>
