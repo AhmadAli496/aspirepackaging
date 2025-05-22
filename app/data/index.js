@@ -47,62 +47,74 @@ export const products = [
     {
         id: "1",
         title: "Flexible Packaging",
+        slug: "flexible-packaging",
         image: "/home/products/1.png"
     },
     {
         id: "2",
         title: "LDPE Lamination Films",
-        "image": "/home/products/2.png"
+        slug: "ldpe-lamination-films",
+        image: "/home/products/2.png"
     },
     {
         id: "3",
         title: "LD Shrink Films",
+        slug: "ld-shrink-films",
         image: "/home/products/3.png"
     },
     {
         id: "4",
         title: "Textile Packaging",
+        slug: "textile-packaging",
         image: "/home/products/4.png"
     },
     {
         id: "5",
         title: "Food Packaging",
-        image: "/home/products/5.png"
+        slug: "food-packaging",
+        image: "/home/products/6.png"
     },
     {
         id: "6",
         title: "Industrial Packaging",
-        image: "/home/products/6.png"
+        slug: "industrial-packaging",
+        image: "/home/products/5.png"
     },
     {
         id: "7",
         title: "Shopping Bags",
+        slug: "shopping-bags",
         image: "/home/products/7.png"
     },
     {
         id: "8",
         title: "Non Woven Bags",
+        slug: "non-woven-bags",
         image: "/home/products/8.webp"
     },
     {
         id: "9",
         title: "Packaging Tapes",
+        slug: "packaging-tapes",
         image: "/home/products/9.png"
     },
     {
         id: "10",
         title: "Corrugated Boxes",
-        image: "/home/products/10.jpg"
+        slug: "corrugated-boxes",
+        image: "/home/products/12.jpg"
     },
     {
         id: "11",
         title: "Customized Paper & Printing",
-        "image": "/home/products/11.png"
+        slug: 'customized-paper-printing',
+        image: "/home/products/11.png"
     },
     {
         id: "12",
-        "title": "LDN Poly Bags",
-        "image": "/home/products/12.jpg"
+        title: "LDN Poly Bags",
+        slug: 'ldn-poly-bags',
+        image: "/home/products/10.jpg"
     }
 ]
 
@@ -156,7 +168,7 @@ export const productsDetails = [
     id: 1,
     slug: "flexible-packaging",
     title: "Flexible Packaging",
-    image: "/images/products/flexible-packaging.jpg",
+    image: "/home/products/1.png",
     galleryImages: [
       "/images/products/flexible-packaging-1.jpg",
       "/images/products/flexible-packaging-2.jpg"
@@ -178,7 +190,7 @@ export const productsDetails = [
     id: 2,
     slug: "ldpe-lamination-films",
     title: "LDPE Lamination Films",
-    image: "/images/products/ldpe-lamination-films.jpg",
+    image: "/home/products/2.png",
     galleryImages: [],
     description: "Lamination films offering excellent sealing and barrier for multi-layer packaging.",
     features: ["High seal strength", "Transparency", "Moisture resistance"],
@@ -197,7 +209,7 @@ export const productsDetails = [
     id: 3,
     slug: "ld-shrink-films",
     title: "LD Shrink Films",
-    image: "/images/products/ld-shrink-films.jpg",
+    image: "/home/products/3.png",
     galleryImages: [],
     description: "Shrinkable LDPE film ideal for bundling, display, and load stability.",
     features: ["Excellent shrinkage", "Tear resistance", "Glossy finish"],
@@ -216,7 +228,7 @@ export const productsDetails = [
     id: 4,
     slug: "textile-packaging",
     title: "Textile Packaging",
-    image: "/images/products/textile-packaging.jpg",
+    image: "/home/products/4.png",
     galleryImages: [],
     description: "Protective packaging designed for garments and textile products.",
     features: ["Dust/moisture resistance", "Custom sizes", "Clear or printed options"],
@@ -235,7 +247,7 @@ export const productsDetails = [
     id: 5,
     slug: "food-packaging",
     title: "Food Packaging",
-    image: "/images/products/food-packaging.jpg",
+    image: "/home/products/5.png",
     galleryImages: [],
     description: "Food-grade packaging that keeps products fresh, safe, and shelf-stable.",
     features: ["Food-safe certified", "Odorless", "Custom designs"],
@@ -254,7 +266,7 @@ export const productsDetails = [
     id: 6,
     slug: "industrial-packaging",
     title: "Industrial Packaging",
-    image: "/images/products/industrial-packaging.jpg",
+    image: "/home/products/6.png",
     galleryImages: [],
     description: "Heavy-duty packaging made to endure transit and storage in industrial settings.",
     features: ["Tear-resistant", "Heavy load support", "Custom specs"],
@@ -273,7 +285,7 @@ export const productsDetails = [
     id: 7,
     slug: "shopping-bags",
     title: "Shopping Bags",
-    image: "/images/products/shopping-bags.jpg",
+    image: "/home/products/7.png",
     galleryImages: [],
     description: "Custom printed shopping bags for retail, durable and eco-aware.",
     features: ["Reusable", "Branding support", "Multiple handle types"],
@@ -292,7 +304,7 @@ export const productsDetails = [
     id: 8,
     slug: "non-woven-bags",
     title: "Non Woven Bags",
-    image: "/images/products/non-woven-bags.jpg",
+    image: "/home/products/8.png",
     galleryImages: [],
     description: "Reusable and biodegradable bags made from non-woven polypropylene.",
     features: ["Biodegradable options", "Loop or D-cut", "Long-lasting"],
@@ -311,7 +323,7 @@ export const productsDetails = [
     id: 9,
     slug: "packaging-tapes",
     title: "Packaging Tapes",
-    image: "/images/products/packaging-tapes.jpg",
+    image: "/home/products/9.png",
     galleryImages: [],
     description: "Strong adhesive tapes for sealing, branding, and bundling.",
     features: ["Hot melt and acrylic", "Custom printing", "Strong adhesion"],
@@ -330,7 +342,7 @@ export const productsDetails = [
     id: 10,
     slug: "corrugated-boxes",
     title: "Corrugated Boxes",
-    image: "/images/products/corrugated-boxes.jpg",
+    image: "/home/products/10.png",
     galleryImages: [],
     description: "Sturdy corrugated boxes available in various ply and printing formats.",
     features: ["3 to 7 ply", "Eco-friendly", "Custom printing"],
@@ -349,7 +361,7 @@ export const productsDetails = [
     id: 11,
     slug: "customized-paper-printing",
     title: "Customized Paper & Printing",
-    image: "/images/products/customized-paper-printing.jpg",
+    image: "/home/products/11.png",
     galleryImages: [],
     description: "Custom printed paper for wraps, inserts, and brand identity.",
     features: ["Full-color printing", "Recyclable", "Glossy or matte"],
@@ -368,7 +380,7 @@ export const productsDetails = [
     id: 12,
     slug: "ldn-poly-bags",
     title: "LDN Poly Bags",
-    image: "/images/products/ldn-poly-bags.jpg",
+    image: "/home/products/12.png",
     galleryImages: [],
     description: "Cost-effective LDPE poly bags for retail, food, and industrial use.",
     features: ["Clear or printed", "Zip/heat seal", "Bulk ready"],

@@ -5,7 +5,7 @@ import { whyChoseUs } from '../data'
 
 const WhyChoseUs = () => {
   return (
-    <div className='py-12'>
+    <div className='py-12' id='why-choose-us'>
         <div className="container flex justify-center items-center flex-col">
           <BtnTitle>Why Chose Us</BtnTitle>
           <div className='text-center'>

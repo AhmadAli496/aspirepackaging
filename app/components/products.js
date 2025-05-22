@@ -4,7 +4,7 @@ import Image from "next/image"
 import {Product} from "@/app/components/index";
 const Products = () => {
     return (
-        <div className={''}>
+        <div className={''} id='products'>
             <div className="container">
                 <div className="info py-5 mb-8">
                     <h2 className="h2 text-center font-bold">Our Products</h2>

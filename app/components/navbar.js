@@ -24,7 +24,9 @@ const Navbar = () => {
               <li><Link href={'/contact'}>Contact Us</Link></li>
             </ul>
             <div className="btn">
+              <a href='/pdf/aspire_packaging.pdf' target='_blank' rel="noopener noreferrer">
               <button className='bg-[#015379] border-2 border-[#015379] cursor-pointer hover:bg-transparent hover:text-black transition-all duration-300 text-white py-3 rounded-sm px-4 text-[15px]'>E-Brochure</button>
+              </a>
             </div>
           </nav>
           {open ? (

@@ -1,5 +1,7 @@
 import Head from "next/head";
+import Image from "next/image";
 import { productsDetails } from "@/app/data";
+import { Contact } from "@/app/components";
 
 const ProductPage = ({params}) => {
 //   const router = useRouter();
@@ -15,11 +17,14 @@ const ProductPage = ({params}) => {
         <meta name="description" content={product.metaDescription} />
       </Head>
 
-      <div className="max-w-6xl mx-auto p-4">
+      <div className="max-w-6xl mt-32 mx-auto p-4">
         <div className="grid md:grid-cols-2 gap-6">
-          <img
+          <Image
             src={product.image}
             alt={product.title}
+            width={400}
+            height={400}
+            priority
             className="rounded-xl shadow-md object-cover w-full"
           />
 
@@ -50,38 +55,13 @@ const ProductPage = ({params}) => {
               ))}
             </ul>
 
-            {product.brochurePDF && (
-              <a
-                href={product.brochurePDF}
-                target="_blank"
-                className="inline-block mt-6 text-blue-600 underline"
-              >
-                Download Brochure
-              </a>
-            )}
-
-            <button className="mt-6 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition">
+            <button className="mt-6 bg-[#015379] text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition">
               {product.ctaText || "Contact Us"}
             </button>
           </div>
         </div>
-
-        {product.galleryImages && product.galleryImages.length > 0 && (
-          <div className="mt-12">
-            <h2 className="text-2xl font-bold mb-4">Gallery</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-              {product.galleryImages.map((img, i) => (
-                <img
-                  key={i}
-                  src={img}
-                  alt={`Gallery ${i + 1}`}
-                  className="rounded-lg object-cover shadow-sm"
-                />
-              ))}
-            </div>
-          </div>
-        )}
       </div>
+      <Contact />
     </>
   );
 }
