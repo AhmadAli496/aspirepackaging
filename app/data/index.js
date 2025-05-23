@@ -21,6 +21,21 @@ export const benifits = [
     }
 ]
 
+export const itemsLeft = [
+    '/home/hero/hp_3.avif',
+    '/home/hero/hp_8.avif',
+    '/home/hero/hp_9.avif',
+    '/home/hero/hp_10.avif',
+    '/home/hero/hp_12.avif',
+];
+
+export const itemsRight = [
+    '/home/hero/right/1.avif',
+    '/home/hero/right/2.avif',
+    '/home/hero/right/3.avif',
+    '/home/hero/right/4.avif',
+    '/home/hero/right/5.avif',
+];
 
 export const whyChoseUs = [
     {
@@ -396,3 +411,25 @@ export const productsDetails = [
     ctaText: "Order Now"
   }
 ];
+
+
+export const Clientlogos = [
+    "/home/client/1.webp",
+    "/home/client/2.webp",
+    "/home/client/3.webp",
+    "/home/client/4.webp",
+    "/home/client/5.webp",
+    "/home/client/6.webp",
+    "/home/client/7.webp",
+    "/home/client/8.webp",
+    "/home/client/9.webp",
+];
+
+export const Certificatelogos = [
+    "/about/certificate/logo1.png",
+    "/about/certificate/logo2.png",
+    "/about/certificate/logo3.png",
+    "/about/certificate/logo4.png",
+    "/about/certificate/logo5.png",
+    
+]

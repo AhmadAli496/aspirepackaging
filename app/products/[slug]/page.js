@@ -3,8 +3,8 @@ import Image from "next/image";
 import { productsDetails } from "@/app/data";
 import { Contact } from "@/app/components";
 
-const ProductPage = ({params}) => {
-//   const router = useRouter();
+const ProductPage = ({ params }) => {
+  //   const router = useRouter();
   const { slug } = params;
   const product = productsDetails.find((p) => p.slug === slug);
 
@@ -55,15 +55,22 @@ const ProductPage = ({params}) => {
               ))}
             </ul>
 
-            <button className="mt-6 bg-[#015379] text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition">
-              {product.ctaText || "Contact Us"}
+              <a
+                href="https://wa.me/923072262269?text=%F0%9F%91%8B%20Hi,%20how%20can%20I%20get%20help?%20URL:%20https://aspirepackaging.pk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" text-white cursor-pointer"
+              >
+            <button className="mt-6 cursor-pointer bg-[#015379] text-white py-2 px-4 rounded-lg hover:bg-slate-800 transition">
+              Request a Quote
             </button>
+              </a>
           </div>
         </div>
       </div>
       <Contact />
     </>
   );
-}
+};
 
-export default ProductPage
+export default ProductPage;

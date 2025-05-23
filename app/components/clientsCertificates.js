@@ -1,5 +1,6 @@
 import React from 'react';
 import {AutoScroller} from "@/app/components/index";
+import { Certificatelogos, Clientlogos } from '../data';
 
 const ClientsCertificates = ({title, Certificate }) => {
     return (
@@ -7,10 +8,10 @@ const ClientsCertificates = ({title, Certificate }) => {
             <h2 className="h2 text-center font-bold">{title}</h2>
             <div className={"mt-8"}>
                 {Certificate ? (
-            <AutoScroller/>
+            <AutoScroller logos={Certificatelogos} />
 
                 ) : (
-            <AutoScroller toRight={false}/>
+            <AutoScroller toRight={false} logos={Clientlogos}/>
                 )}
             </div>
         </div>

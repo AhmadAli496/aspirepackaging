@@ -115,27 +115,27 @@ const Footer = () => {
               <h3 className="text-xl font-semibold mb-4">Products</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
+                  <Link href="/products/flexible-packaging" className="text-slate-300 hover:text-white">
                   Flexible Packaging
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
+                  <Link href="/products/textile-packaging" className="text-slate-300 hover:text-white">
                   Textile Packaging
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
+                  <Link href="/products/food-packaging" className="text-slate-300 hover:text-white">
                   Food Packaging
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
+                  <Link href="/products/non-woven-bags" className="text-slate-300 hover:text-white">
                   Non Woven Bags
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-slate-300 hover:text-white">
+                  <Link href="/products/corrugated-boxes" className="text-slate-300 hover:text-white">
                   Corrugated Boxes
                   </Link>
                 </li>

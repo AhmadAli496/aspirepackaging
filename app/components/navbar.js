@@ -45,7 +45,9 @@ const Navbar = () => {
                   <li onClick={() => setOpen(false)} className={''}><Link href={'/faqs'}>FAQs</Link></li>
                   <li onClick={() => setOpen(false)} className={''}><Link href={'/contact'}>Contact Us</Link></li>
                 <div className="btn mx-auto flex w-full">
+                  <a href='/pdf/aspire_packaging.pdf' target='_blank' rel="noopener noreferrer">
                   <button className='bg-blue-600 text-white py-4 rounded-sm w-full px-4 text-[15px]'>E-Brochure</button>
+                  </a>
                 </div>
                 </ul>
               </nav>

@@ -3,15 +3,9 @@
 import { useEffect, useRef } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 
-const items = [
-    '/home/hero/hp_3.avif',
-    '/home/hero/hp_8.avif',
-    '/home/hero/hp_9.avif',
-    '/home/hero/hp_10.avif',
-    '/home/hero/hp_12.avif',
-];
 
-export default function VerticalAutoScroller({toBottom = true}) {
+
+export default function VerticalAutoScroller({toBottom = true, items}) {
     const containerRef = useRef(null);
     const controls = useAnimation();
 

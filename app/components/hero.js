@@ -2,6 +2,7 @@ import React from 'react'
 import VerticalAutoScroller from "./verticalScroller"
 import Image from 'next/image'
 import Link from 'next/link'
+import { itemsLeft, itemsRight } from '../data'
 // import heroImage from "./public/package.jpg"
 
 const Hero = () => {
@@ -17,8 +18,8 @@ const Hero = () => {
             </div>
             <div className="image md:w-1/2 flex gap-4">
                 {/*<Image src='/package.jpg' alt="my-Hero Image" width={600} height={400} />*/}
-                <VerticalAutoScroller/>
-                <VerticalAutoScroller toBottom={false} />
+                <VerticalAutoScroller items={itemsLeft}/>
+                <VerticalAutoScroller toBottom={false} items={itemsRight} />
             </div>
         </div>
     </div>
