@@ -11,7 +11,9 @@ const Navbar = () => {
   const handleClick = () => setOpen(true);
   const handleClose = () => {
     setOpen(false)
-    setMobileDropdownOpen(false);
+    setTimeout(() => {
+      setMobileDropdownOpen(false);
+    }, 400);
   };
 
   return (
@@ -132,7 +134,9 @@ const Navbar = () => {
                     {products.map((product) => (
                       <li
                         key={product.id}
-                        onClick={() => handleClose()}
+                        onClick={() => {
+                          setOpen(false);
+                        }}
                         className="px-4 py-2 hover:bg-[#015379] whitespace-nowrap hover:text-white"
                       >
                         <Link href={`/products/${product.slug}`}>

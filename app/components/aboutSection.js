@@ -37,7 +37,7 @@ const AboutSection = () => {
             Learn More
             </Link>
           </button>
-            <button className='ml-8'>
+            <button className='mt-4 border border-gray-300 py-2 px-3 rounded-lg shadow-md lg:ml-8 '>
             <a href="tel:+923072262269" className="text-gray-800 hover:text-blue-600">
             Call Us: +92 307 2262269
             </a>
