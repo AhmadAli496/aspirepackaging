@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Contact } from '../components'
 const page = () => {
   return (
-      <div className='mt-16 md:py-24'>
+      <div className='mt-16 md:py-24x'>
       <Contact />
       </div>
   )
