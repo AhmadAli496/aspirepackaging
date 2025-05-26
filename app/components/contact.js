@@ -20,7 +20,7 @@ const Contact = () => {
             touch with our team.
           </p>
         </div>
-        <div className="mt-16 grid gap-8 lg:grid-cols-2">
+        <div className="mt-16 grid gap-8 lg:px-16 lg:grid-cols-2">
           <div>
             <form className="space-y-6" action="https://formsubmit.co/aspirepackaging@yahoo.com" method="POST">
               <div className="grid gap-6 sm:grid-cols-2">
@@ -115,9 +115,9 @@ const Contact = () => {
                   <div>
                     <p className="font-medium">Address</p>
                     <p className="text-slate-600">
-                      123 Packaging Street, Suite 100
+                      Oce # 01 Usman street Taj company
                     </p>
-                    <p className="text-slate-600">New York, NY 10001</p>
+                    <p className="text-slate-600">Lahore, NY 54000</p>
                   </div>
                 </div>
                 <div className="flex items-start">

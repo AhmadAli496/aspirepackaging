@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import { BtnTitle } from '.';
 import React from "react";
+import Link from 'next/link';
 
 const AboutSection = () => {
   return (
@@ -10,8 +11,8 @@ const AboutSection = () => {
           <BtnTitle className={''}>About Us</BtnTitle>
       <h2 className="h2 font-bold text-center">Who We Are</h2>
             <div className="mt-1 h-1 w-28 mb-12 bg-blue-600 mx-auto"></div>
-      <p className="text-gray-500 text-center mb-8 max-w-xl text-lg">
-        As a Web Development Services We are Committed to Building Custom Web Solutions that Drive Business Success.
+      <p className="text-gray-500 text-center mb-8 lg:w-[80%] text-lg">
+        At Aspire Packaging, we are committed to redefining the standards of innovative, sustainable, and purpose-driven packaging solutions. With a passion for quality and a focus on environmental responsibility, we design and deliver packaging that not only protects products but also elevates brand presence.
       </p>
       <div className="flex flex-col md:flex-row items-center gap-8 bg-white rounded-lg p-8">
         <div className="w-full md:w-[38rem] lg:h-94 relative rounded-lg overflow-hidden">
@@ -26,13 +27,15 @@ const AboutSection = () => {
         </div>
         <div className="flex-1">
           <p className="text-gray-700 mb-4">
-            At our web development agency, we specialize in crafting bespoke online solutions tailored to elevate businesses toward their digital objectives. Committed to continuous evolution, we remain abreast of cutting-edge web technologies and trends, ensuring a constant delivery of unparalleled excellence.
+            Our mission is to empower businesses by providing packaging solutions that combine functionality, and brand impact. We are dedicated to reducing environmental footprints through the use of eco-conscious materials. At Aspire Packaging, we believe that packaging should do more than contain—it should communicate, connect, and contribute to a better future.
           </p>
           <p className="text-gray-700 mb-6">
-            Our ethos is rooted in equipping clients with the essential tools for triumph in the digital realm. Committed to continuous evolution, we remain abreast of cutting-edge web technologies and trends, ensuring a constant delivery of unparalleled excellence. We firmly believe in furnishing every business with a digital presence that authentically embodies their brand essence and effectively resonates with their target demographic.
+            We envision a world where packaging is not a burden to the environment, but a vehicle for progress and innovation. Aspire Packaging aims to lead the transformation of the packaging industry through continuous improvement, and a deep-rooted commitment to sustainability. Our vision is to become a global standard in packaging excellence—where our designs inspire trust, our processes support the planet.
           </p>
           <button className="mt-2 px-6 py-2 bg-white border border-gray-300 rounded-lg shadow-sm text-gray-800 font-semibold hover:bg-gray-100 transition">
-            Get in Touch
+            <Link href="/about">
+            Learn More
+            </Link>
           </button>
         </div>
       </div>

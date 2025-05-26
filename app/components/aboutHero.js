@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
                 transition={{ duration: 1 }}
                 className="absolute inset-0 bg-[url('/about/about.jpg')] opacity-50 bg-cover bg-center"
             >
-                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute inset-0 bg-black/70" />
             </motion.div>
 
             <motion.div

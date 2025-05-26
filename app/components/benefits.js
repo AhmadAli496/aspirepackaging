@@ -1,9 +1,15 @@
+'use client';
 import React from "react";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import { benifits } from "../data";
 const Benefits = () => {
   return (
-    <div className="relative md:-top-12">
+    <motion.div
+    initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+    className="relative md:-top-12">
       <div className="container">
         <div className="grid rounded-xl lg:grid-cols-3 md:grid-cols-2 grid-cols-1 bg-gray-100 border border-gray-300  shadow-lg">
           {benifits.map((benifit) => (
@@ -37,7 +43,7 @@ const Benefits = () => {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default Benefits;

@@ -87,13 +87,13 @@ export const products = [
         id: "5",
         title: "Food Packaging",
         slug: "food-packaging",
-        image: "/home/products/6.png"
+        image: "/home/products/5.png"
     },
     {
         id: "6",
         title: "Industrial Packaging",
         slug: "industrial-packaging",
-        image: "/home/products/5.png"
+        image: "/home/products/6.png"
     },
     {
         id: "7",
@@ -105,7 +105,7 @@ export const products = [
         id: "8",
         title: "Non Woven Bags",
         slug: "non-woven-bags",
-        image: "/home/products/8.webp"
+        image: "/home/products/8.jpg"
     },
     {
         id: "9",
@@ -117,7 +117,7 @@ export const products = [
         id: "10",
         title: "Corrugated Boxes",
         slug: "corrugated-boxes",
-        image: "/home/products/12.jpg"
+        image: "/home/products/10.jpg"
     },
     {
         id: "11",
@@ -129,7 +129,7 @@ export const products = [
         id: "12",
         title: "LDN Poly Bags",
         slug: 'ldn-poly-bags',
-        image: "/home/products/10.jpg"
+        image: "/home/products/12.jpg"
     }
 ]
 
@@ -319,7 +319,7 @@ export const productsDetails = [
     id: 8,
     slug: "non-woven-bags",
     title: "Non Woven Bags",
-    image: "/home/products/8.png",
+    image: "/home/products/8.jpg",
     galleryImages: [],
     description: "Reusable and biodegradable bags made from non-woven polypropylene.",
     features: ["Biodegradable options", "Loop or D-cut", "Long-lasting"],
@@ -357,7 +357,7 @@ export const productsDetails = [
     id: 10,
     slug: "corrugated-boxes",
     title: "Corrugated Boxes",
-    image: "/home/products/10.png",
+    image: "/home/products/10.jpg",
     galleryImages: [],
     description: "Sturdy corrugated boxes available in various ply and printing formats.",
     features: ["3 to 7 ply", "Eco-friendly", "Custom printing"],
@@ -395,7 +395,7 @@ export const productsDetails = [
     id: 12,
     slug: "ldn-poly-bags",
     title: "LDN Poly Bags",
-    image: "/home/products/12.png",
+    image: "/home/products/12.jpg",
     galleryImages: [],
     description: "Cost-effective LDPE poly bags for retail, food, and industrial use.",
     features: ["Clear or printed", "Zip/heat seal", "Bulk ready"],
@@ -419,7 +419,6 @@ export const Clientlogos = [
     "/home/client/3.webp",
     "/home/client/4.webp",
     "/home/client/5.webp",
-    "/home/client/6.webp",
     "/home/client/7.webp",
     "/home/client/8.webp",
     "/home/client/9.webp",
