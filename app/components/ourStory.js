@@ -13,7 +13,7 @@ const OurStory = () => {
           {ourStory.map((story) => (
             <div key={story.id} className={" overflow-hidden"}>
               <p
-                className={`text-center md:w-[70%] mx-auto text-xl lg:font-serif text-gray-100`}
+                className={`text-center md:w-[70%] mx-auto text-xl lg:font-serif text-gray-200`}
               >
                 {story.description}
               </p>

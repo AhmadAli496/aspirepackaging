@@ -111,7 +111,7 @@ const Contact = () => {
                   <div>
                     <p className="font-medium">Address</p>
                     <p className="text-slate-600">
-                      Oce # 01 Usman street Taj company
+                      Office # 01 Usman street Taj company
                     </p>
                     <p className="text-slate-600">Lahore, NY 54000</p>
                   </div>

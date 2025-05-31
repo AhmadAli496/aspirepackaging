@@ -22,15 +22,15 @@ export const benifits = [
 ]
 
 export const itemsLeft = [
-    '/home/hero/hp_3.avif',
-    '/home/hero/hp_8.avif',
-    '/home/hero/hp_9.avif',
+    '/home/hero/2.jpg',
+    '/home/hero/8.jpg',
+    '/home/hero/9.jpg',
     '/home/hero/hp_10.avif',
-    '/home/hero/hp_12.avif',
+    '/home/hero/12.jpg',
 ];
 
 export const itemsRight = [
-    '/home/hero/right/1.avif',
+    '/home/hero/right/1.jpg',
     '/home/hero/right/2.avif',
     '/home/hero/right/3.avif',
     '/home/hero/right/4.avif',
@@ -87,7 +87,7 @@ export const products = [
         id: "5",
         title: "Food Packaging",
         slug: "food-packaging",
-        image: "/home/products/5.png"
+        image: "/home/products/5.jpg"
     },
     {
         id: "6",
@@ -99,7 +99,7 @@ export const products = [
         id: "7",
         title: "Shopping Bags",
         slug: "shopping-bags",
-        image: "/home/products/7.png"
+        image: "/home/products/7.jpg"
     },
     {
         id: "8",
@@ -136,7 +136,7 @@ export const products = [
 export const ourStory = [
     {
         id: '1',
-        description: 'At Aspire Packaging, our mission is to become a leading global manufacturer of biodegradable paper bag products, dedicated to serving humanity by preserving the environment. We are committed to offering FDA-approved products that cater to a wide range of customer needs with extensive size options and competitive pricing.',
+        description: 'At Aspire Packaging, our mission is to become a leading global manufacturer of biodegradable poly packaging products, dedicated to serving humanity by preserving the environment. We are committed to offering FDA-approved products that cater to a wide range of customer needs with extensive size options and competitive pricing.',
         image: '/home/story/story.jpg',
         stats: [
             { label: "Projects Delivered", value: 120, icon: 'icon' ,},
@@ -262,7 +262,7 @@ export const productsDetails = [
     id: 5,
     slug: "food-packaging",
     title: "Food Packaging",
-    image: "/home/products/5.png",
+    image: "/home/products/5.jpg",
     galleryImages: [],
     description: "Food-grade packaging that keeps products fresh, safe, and shelf-stable.",
     features: ["Food-safe certified", "Odorless", "Custom designs"],
@@ -300,7 +300,7 @@ export const productsDetails = [
     id: 7,
     slug: "shopping-bags",
     title: "Shopping Bags",
-    image: "/home/products/7.png",
+    image: "/home/products/7.jpg",
     galleryImages: [],
     description: "Custom printed shopping bags for retail, durable and eco-aware.",
     features: ["Reusable", "Branding support", "Multiple handle types"],
@@ -427,8 +427,8 @@ export const Clientlogos = [
 export const Certificatelogos = [
     "/about/certificate/logo1.png",
     "/about/certificate/logo2.png",
-    "/about/certificate/logo3.png",
-    "/about/certificate/logo4.png",
+    "/about/certificate/logo3.jpg",
+    "/about/certificate/logo4.jpg",
     "/about/certificate/logo5.png",
     
 ]
