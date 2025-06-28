@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.aspirepackaging.pk/
+
+# Sitemaps
+Sitemap: https://www.aspirepackaging.pk/sitemap.xml
