@@ -17,7 +17,7 @@ const AboutSection = () => {
       <div className="flex flex-col md:flex-row items-center gap-8 bg-white rounded-lg p-8">
         <div className="w-full md:w-[38rem] lg:h-94 relative rounded-lg overflow-hidden">
           <Image
-            src="/home/about-section.jpg" // Place your image in the public folder
+            src="/home/about-section.webp" // Place your image in the public folder
             alt="Team working together"
             className="rounded-lg"
             priority
