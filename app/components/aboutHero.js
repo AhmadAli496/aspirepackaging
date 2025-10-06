@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1 }}
-                className="absolute inset-0 bg-[url('/about/about.jpg')] opacity-50 bg-cover bg-center"
+                className="absolute inset-0 bg-[url('/about/about.webp')] opacity-50 bg-cover bg-center"
             >
                 <div className="absolute inset-0 bg-black/70" />
             </motion.div>
